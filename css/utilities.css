@@ -10,6 +10,10 @@
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .btn{
     padding: 0.8rem 2rem;
     font-size: 1rem;
@@ -41,4 +45,15 @@
 
 .flex-1{
     flex: 1;
+}
+
+.section-heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.text-center{
+    text-align: center;
 }

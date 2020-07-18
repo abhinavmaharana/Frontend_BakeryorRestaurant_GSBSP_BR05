@@ -7,7 +7,7 @@ html,body{
 }
 
 .navbar{
-    background-color:transparent;
+    background-color:black;
     padding: 1% 0;
     font-size: 2em;
     border: transparent;
@@ -61,18 +61,7 @@ section{
     font-weight: 300;
 }
 
-section.menu .menu_image{
-    height: 450px;
+section{
+    padding:12rem;
 }
 
-section.menu h1{
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-
-section.menu p{
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
