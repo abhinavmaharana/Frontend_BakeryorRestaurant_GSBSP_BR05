@@ -62,6 +62,79 @@ section{
 }
 
 section{
-    padding:12rem;
+    padding:8rem 0;
 }
 
+section.about .about-me-img{
+    height: 450px;
+}
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.about p{
+    font-family: sans-serif;
+    line-height: 1.9rem;
+}
+
+section.blog{
+    background: rgb(172, 150, 110) ;
+}
+
+section.blog .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+section.blog .card-wrapper .card{
+    background: white;
+    
+}
+
+
+section.blog .card-wrapper .card .card-content{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+section.blog .card-wrapper .card .card-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+section.blog .card-wrapper .card .card-content a{
+    color: black;
+    text-decoration: none;
+}
+
+section.blog .card-wrapper .card .card-content a:hover{
+    color: #428c20;
+}
+
+section.blog .card-wrapper .card .card-content h4{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+section.blog .card-wrapper .card .card-content p{
+    font-family: 'Lobster', sans-serif;
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.blog .card-wrapper .card .card-content a.read-more{
+    font-size: 0.8rem;
+}

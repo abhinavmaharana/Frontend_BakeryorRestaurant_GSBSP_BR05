@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .flex{
     display: flex;
 }
@@ -48,10 +49,22 @@
 }
 
 .section-heading{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lobster',sans-serif;
     text-align: center;
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+
+}
+.section-heading:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom:-30px;
 }
 
 .text-center{
