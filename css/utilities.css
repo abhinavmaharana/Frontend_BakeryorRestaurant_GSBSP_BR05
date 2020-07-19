@@ -45,6 +45,24 @@
     border-color: #428c20;
 }
 
+.btn-third{
+    background: #428c20;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-third:hover{
+    color: black;
+}
+
+.no-input{
+    width: 100%;
+    border: none;
+    padding: 0 1rem;
+    font-size: 2rem;
+    outline: none;
+}
+
 .flex-1{
     flex: 1;
 }
